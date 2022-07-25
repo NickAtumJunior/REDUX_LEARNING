@@ -26,20 +26,7 @@ import { reducers } from "./Reducers";
 //   }else{
 //     return state = "nothing here"
 //   }
-  // switch(action.type){
-  //   case First_Redux:
-  //     return state = "First working"
-  //     break
-  //   case Second_Redux:
-  //     return state = "second working"
-  //     break
-  //   case THIRD:
-  //     return state = "third working"
-  //     break
-  //   default:
-  //     return state = "nothing here"
-  //     break
-  // }
+
 
 //store
 export const store = createStore(reducers);
